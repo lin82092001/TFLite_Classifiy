@@ -1,0 +1,7 @@
+cross
+forbid
+parking
+slow
+stop
+walk
+walkerfirst
