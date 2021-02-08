@@ -21,6 +21,8 @@
 		AAE79E952135237A00E7AC1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE79E942135237A00E7AC1F /* ViewController.swift */; };
 		AAE79E9A2135268800E7AC1F /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE79E982135268800E7AC1F /* PreviewView.swift */; };
 		AAE79E9B2135268800E7AC1F /* CameraFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE79E992135268800E7AC1F /* CameraFeedManager.swift */; };
+		DA2F9C6925D0E0610029BDE9 /* label_saved.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA2F9C6725D0E0610029BDE9 /* label_saved.txt */; };
+		DA2F9C6A25D0E0610029BDE9 /* saved_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = DA2F9C6825D0E0610029BDE9 /* saved_model.tflite */; };
 		EC649C5B452C8C0447CBF4F5 /* Pods_ImageClassification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAC064B1C04343A9CCCCFA3 /* Pods_ImageClassification.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		AAE79E942135237A00E7AC1F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAE79E982135268800E7AC1F /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		AAE79E992135268800E7AC1F /* CameraFeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedManager.swift; sourceTree = "<group>"; };
+		DA2F9C6725D0E0610029BDE9 /* label_saved.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = label_saved.txt; path = ../../../android/models/src/main/assets/label_saved.txt; sourceTree = "<group>"; };
+		DA2F9C6825D0E0610029BDE9 /* saved_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = saved_model.tflite; path = ../../../android/models/src/main/assets/saved_model.tflite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		AA5FEB7A21355CCC00F9BD4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA2F9C6725D0E0610029BDE9 /* label_saved.txt */,
+				DA2F9C6825D0E0610029BDE9 /* saved_model.tflite */,
 				AA5FEB7B21355CCC00F9BD4B /* mobilenet_quant_v1_224.tflite */,
 				AA5FEB7C21355CCC00F9BD4B /* labels.txt */,
 			);
@@ -240,9 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2F9C6A25D0E0610029BDE9 /* saved_model.tflite in Resources */,
 				AAE79E64213521DB00E7AC1F /* LaunchScreen.storyboard in Resources */,
 				AAE79E61213521DB00E7AC1F /* Assets.xcassets in Resources */,
 				AA5FEB7E21355CCC00F9BD4B /* labels.txt in Resources */,
+				DA2F9C6925D0E0610029BDE9 /* label_saved.txt in Resources */,
 				AAE79E5F213521DA00E7AC1F /* Main.storyboard in Resources */,
 				AA5FEB7D21355CCC00F9BD4B /* mobilenet_quant_v1_224.tflite in Resources */,
 			);
